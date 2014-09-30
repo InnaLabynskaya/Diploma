@@ -1,0 +1,7 @@
+#include "Product.h"
+#include "BaseInput.h"
+#include "BaseOutput.h"
+#include "BaseLoad.h"
+#include "BaseSail.h"
+#include "BaseFactory.h"
+#include "Category.h"
