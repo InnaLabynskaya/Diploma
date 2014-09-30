@@ -74,12 +74,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseFactory.cpp" />
+    <ClCompile Include="BaseInput.cpp" />
+    <ClCompile Include="BaseLoad.cpp" />
+    <ClCompile Include="BaseOutput.cpp" />
+    <ClCompile Include="BaseSail.cpp" />
     <ClCompile Include="Category.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Product.cpp" />
     <ClCompile Include="Shop.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseFactory.h" />
+    <ClInclude Include="BaseInput.h" />
+    <ClInclude Include="BaseLoad.h" />
+    <ClInclude Include="BaseOutput.h" />
+    <ClInclude Include="BaseSail.h" />
     <ClInclude Include="Category.h" />
+    <ClInclude Include="Product.h" />
     <ClInclude Include="Shop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
