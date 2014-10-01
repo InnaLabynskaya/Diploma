@@ -35,6 +35,7 @@ unsigned int Product::subQuantity(unsigned int quantity)
 {
 	if(quantity <= m_quantity)
 		return m_quantity -= quantity;
+	return m_quantity;
 }
 
 Product::~Product(void)

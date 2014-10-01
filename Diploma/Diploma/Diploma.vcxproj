@@ -50,6 +50,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,26 +75,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseFactory.cpp" />
-    <ClCompile Include="BaseInput.cpp" />
-    <ClCompile Include="BaseLoad.cpp" />
-    <ClCompile Include="BaseOutput.cpp" />
-    <ClCompile Include="BaseSail.cpp" />
-    <ClCompile Include="Category.cpp" />
+    <ClCompile Include="..\Library\BaseFactory.cpp" />
+    <ClCompile Include="..\Library\BaseInput.cpp" />
+    <ClCompile Include="..\Library\BaseLoad.cpp" />
+    <ClCompile Include="..\Library\BaseOutput.cpp" />
+    <ClCompile Include="..\Library\BaseSail.cpp" />
+    <ClCompile Include="..\Library\Category.cpp" />
+    <ClCompile Include="..\Library\Product.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Product.cpp" />
     <ClCompile Include="Shop.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseFactory.h" />
-    <ClInclude Include="BaseInput.h" />
-    <ClInclude Include="BaseLoad.h" />
-    <ClInclude Include="BaseOutput.h" />
-    <ClInclude Include="BaseSail.h" />
-    <ClInclude Include="Category.h" />
-    <ClInclude Include="Product.h" />
+    <ClInclude Include="..\Library\BaseFactory.h" />
+    <ClInclude Include="..\Library\BaseInput.h" />
+    <ClInclude Include="..\Library\BaseLoad.h" />
+    <ClInclude Include="..\Library\BaseOutput.h" />
+    <ClInclude Include="..\Library\BaseSail.h" />
+    <ClInclude Include="..\Library\Category.h" />
+    <ClInclude Include="..\Library\Product.h" />
+    <ClInclude Include="..\Library\ShopLibrary.h" />
     <ClInclude Include="Shop.h" />
-    <ClInclude Include="ShopLibrary__.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
