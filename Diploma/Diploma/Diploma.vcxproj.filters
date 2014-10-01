@@ -68,7 +68,7 @@
     <ClInclude Include="BaseFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShopLibrary.h">
+    <ClInclude Include="ShopLibrary__.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

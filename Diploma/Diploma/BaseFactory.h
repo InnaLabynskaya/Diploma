@@ -1,6 +1,9 @@
 #ifndef __BASE_FACTORY__
 #define __BASE_FACTORY__
-#include "ShopLibrary.h"
+#include "BaseInput.h"
+#include "BaseOutput.h"
+#include "BaseSail.h"
+#include "BaseLoad.h"
 
 class BaseFactory
 {

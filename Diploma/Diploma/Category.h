@@ -1,7 +1,7 @@
 #ifndef __CATEGORY__
 #define __CATEGORY__
 #include <string>
-#include "ShopLibrary.h"
+#include "BaseFactory.h"
 
 class Category
 {

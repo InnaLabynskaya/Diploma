@@ -1,6 +1,6 @@
 #ifndef __BASE_OUTPUT__
 #define __BASE_OUTPUT__
-#include "ShopLibrary.h"
+#include "Product.h"
 #include <vector>
 
 class BaseOutput

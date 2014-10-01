@@ -1,6 +1,6 @@
 #ifndef __BASE_INPUT__
 #define __BASE_INPUT__
-#include "ShopLibrary.h"
+#include "Product.h"
 
 class BaseInput
 {
