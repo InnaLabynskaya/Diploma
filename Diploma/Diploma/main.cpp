@@ -30,7 +30,6 @@ int main()
 				cout<<"Library "<< fileData.cFileName <<" was loaded\n"; 
 			Category *cat = categoryFunc();
 			cout << cat->name() << endl;
-			delete cat;
 			FreeLibrary(plugin);
 		}
 		FindClose(fileHandler);

@@ -15,3 +15,5 @@
 *.rc
 *.suo
 *.unsuccessfulbuild
+/Diploma/Debug/
+/Diploma/Release/

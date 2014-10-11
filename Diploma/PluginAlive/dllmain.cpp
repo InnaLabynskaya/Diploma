@@ -1,31 +1,32 @@
 #include <windows.h>
 #include "PluginAPI.h"
+#include <iostream>
+using namespace std;
+
+static Category* p_category;
 
 extern "C" DLLAPI BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
     switch (fdwReason)
     {
         case DLL_PROCESS_ATTACH:
-            // attach to process
-            // return FALSE to fail DLL load
+			p_category = new Category("Alive");
             break;
 
         case DLL_PROCESS_DETACH:
-            // detach from process
+			delete p_category;
             break;
 
         case DLL_THREAD_ATTACH:
-            // attach to thread
             break;
 
         case DLL_THREAD_DETACH:
-            // detach from thread
             break;
     }
-    return TRUE; // succesful
+    return TRUE;
 }
 
 Category* getCategory(void)
 {
-	return new Category("Alive");
+	return p_category;
 }
