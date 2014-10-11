@@ -74,5 +74,8 @@
     <ClInclude Include="..\Library\ShopLibrary.h">
       <Filter>Library</Filter>
     </ClInclude>
+    <ClInclude Include="..\Library\PluginAPI.h">
+      <Filter>Library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

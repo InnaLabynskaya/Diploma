@@ -92,6 +92,7 @@
     <ClInclude Include="..\Library\BaseOutput.h" />
     <ClInclude Include="..\Library\BaseSail.h" />
     <ClInclude Include="..\Library\Category.h" />
+    <ClInclude Include="..\Library\PluginAPI.h" />
     <ClInclude Include="..\Library\Product.h" />
     <ClInclude Include="..\Library\ShopLibrary.h" />
     <ClInclude Include="Shop.h" />
