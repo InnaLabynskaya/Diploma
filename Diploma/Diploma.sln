@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diploma", "Diploma\Diploma.vcxproj", "{5964AF31-EFFA-4702-8F88-F41713791D13}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginAlive", "PluginAlive\PluginAlive.vcxproj", "{C8C27A33-7F4E-4224-A994-53BC8422EC28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{5964AF31-EFFA-4702-8F88-F41713791D13}.Debug|Win32.Build.0 = Debug|Win32
 		{5964AF31-EFFA-4702-8F88-F41713791D13}.Release|Win32.ActiveCfg = Release|Win32
 		{5964AF31-EFFA-4702-8F88-F41713791D13}.Release|Win32.Build.0 = Release|Win32
+		{C8C27A33-7F4E-4224-A994-53BC8422EC28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8C27A33-7F4E-4224-A994-53BC8422EC28}.Debug|Win32.Build.0 = Debug|Win32
+		{C8C27A33-7F4E-4224-A994-53BC8422EC28}.Release|Win32.ActiveCfg = Release|Win32
+		{C8C27A33-7F4E-4224-A994-53BC8422EC28}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,6 +9,6 @@
 
 #include "ShopLibrary.h"
 
-DLLAPI Category* getCategory();
+DLLAPI Category* getCategory(void);
 
 #endif

@@ -6,6 +6,7 @@
 class Category
 {
 public:
+	Category(const std::string &name);
 	Category(const std::string &name, BaseFactory &factory);
 	const std::string& name() const {return m_name;}
 	BaseInput* input() {return m_input;}
