@@ -2,12 +2,6 @@
 using namespace std;
 #define SAVE_DELETE(_obj_) if(_obj_)delete(_obj_)
 
-Category::Category(const std::string &name):m_name(name), m_input(0), m_output(0), m_sail(0), m_load(0) 
-{
-	int a = 3+5;
-	++a;
-}
-
 Category::Category(const string &name, BaseFactory &factory):m_name(name)
 {
 	m_input = factory.createInput();

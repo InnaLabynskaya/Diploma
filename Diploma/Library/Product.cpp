@@ -5,6 +5,11 @@ Product::Product(const string &name):m_name(name), m_price(0), m_quantity(0)
 {
 }
 
+const string& Product::name()
+{
+	return m_name;
+}
+
 float Product::getPrice()
 {
 	return m_price;

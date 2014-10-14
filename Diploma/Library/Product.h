@@ -6,6 +6,7 @@ class Product
 {
 public:
 	Product(const std::string &name);
+	virtual const std::string &name();
 	virtual float getPrice();
 	virtual void setPrice(float price);
 	virtual unsigned int getQuantity();

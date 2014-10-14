@@ -11,5 +11,9 @@ int main()
 		Category* category = *it;
 		cout<<"Name: "<<category->name()<<endl;
 	}
+	Category* category = manager.categories()[0];
+	Product* product = category->input()->createProduct();
+	category->output()->show(product);
+	delete product;
 	return 0;
 }

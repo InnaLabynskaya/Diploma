@@ -7,6 +7,7 @@ class BaseOutput
 {
 public:
 	BaseOutput(void);
+	virtual void show(Product* product) = 0;
 	virtual void show(const std::vector<Product*>& products) = 0;
 	virtual ~BaseOutput(void);
 };
