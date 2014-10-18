@@ -9,7 +9,7 @@ static Category* p_category;
 extern "C" DLLAPI BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
     switch (fdwReason)
-    {
+    {  
         case DLL_PROCESS_ATTACH:
 			p_category = new Category("Alive", AliveFactory());
             break;

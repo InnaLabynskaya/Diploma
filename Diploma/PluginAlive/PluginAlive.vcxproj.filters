@@ -30,9 +30,6 @@
     <ClCompile Include="..\Library\BaseOutput.cpp">
       <Filter>Library</Filter>
     </ClCompile>
-    <ClCompile Include="..\Library\BaseSail.cpp">
-      <Filter>Library</Filter>
-    </ClCompile>
     <ClCompile Include="..\Library\Category.cpp">
       <Filter>Library</Filter>
     </ClCompile>
@@ -54,10 +51,13 @@
     <ClCompile Include="AliveOutput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AliveSail.cpp">
+    <ClCompile Include="AliveLoad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AliveLoad.cpp">
+    <ClCompile Include="..\Library\BaseSave.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="AliveSave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,9 +72,6 @@
       <Filter>Library</Filter>
     </ClInclude>
     <ClInclude Include="..\Library\BaseOutput.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Library\BaseSail.h">
       <Filter>Library</Filter>
     </ClInclude>
     <ClInclude Include="..\Library\Category.h">
@@ -101,11 +98,14 @@
     <ClInclude Include="AliveOutput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AliveSail.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AliveLoad.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AliveSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\BaseSave.h">
+      <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

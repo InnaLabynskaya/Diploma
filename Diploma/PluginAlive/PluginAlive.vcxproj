@@ -79,7 +79,7 @@
     <ClCompile Include="..\Library\BaseInput.cpp" />
     <ClCompile Include="..\Library\BaseLoad.cpp" />
     <ClCompile Include="..\Library\BaseOutput.cpp" />
-    <ClCompile Include="..\Library\BaseSail.cpp" />
+    <ClCompile Include="..\Library\BaseSave.cpp" />
     <ClCompile Include="..\Library\Category.cpp" />
     <ClCompile Include="..\Library\Product.cpp" />
     <ClCompile Include="AliveFactory.cpp" />
@@ -87,7 +87,7 @@
     <ClCompile Include="AliveLoad.cpp" />
     <ClCompile Include="AliveOutput.cpp" />
     <ClCompile Include="AliveProduct.cpp" />
-    <ClCompile Include="AliveSail.cpp" />
+    <ClCompile Include="AliveSave.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -95,7 +95,7 @@
     <ClInclude Include="..\Library\BaseInput.h" />
     <ClInclude Include="..\Library\BaseLoad.h" />
     <ClInclude Include="..\Library\BaseOutput.h" />
-    <ClInclude Include="..\Library\BaseSail.h" />
+    <ClInclude Include="..\Library\BaseSave.h" />
     <ClInclude Include="..\Library\Category.h" />
     <ClInclude Include="..\Library\PluginAPI.h" />
     <ClInclude Include="..\Library\Product.h" />
@@ -105,7 +105,7 @@
     <ClInclude Include="AliveLoad.h" />
     <ClInclude Include="AliveOutput.h" />
     <ClInclude Include="AliveProduct.h" />
-    <ClInclude Include="AliveSail.h" />
+    <ClInclude Include="AliveSave.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

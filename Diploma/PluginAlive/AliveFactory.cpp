@@ -21,7 +21,7 @@ BaseOutput* AliveFactory::createOutput()
 	return new AliveOutput();
 }
 
-BaseSail* AliveFactory::createSail()
+BaseSave* AliveFactory::createSave()
 {
 	return 0;
 }

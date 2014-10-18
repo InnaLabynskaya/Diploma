@@ -79,7 +79,7 @@
     <ClCompile Include="..\Library\BaseInput.cpp" />
     <ClCompile Include="..\Library\BaseLoad.cpp" />
     <ClCompile Include="..\Library\BaseOutput.cpp" />
-    <ClCompile Include="..\Library\BaseSail.cpp" />
+    <ClCompile Include="..\Library\BaseSave.cpp" />
     <ClCompile Include="..\Library\Category.cpp" />
     <ClCompile Include="..\Library\Product.cpp" />
     <ClCompile Include="main.cpp" />
@@ -91,7 +91,7 @@
     <ClInclude Include="..\Library\BaseInput.h" />
     <ClInclude Include="..\Library\BaseLoad.h" />
     <ClInclude Include="..\Library\BaseOutput.h" />
-    <ClInclude Include="..\Library\BaseSail.h" />
+    <ClInclude Include="..\Library\BaseSave.h" />
     <ClInclude Include="..\Library\Category.h" />
     <ClInclude Include="..\Library\PluginAPI.h" />
     <ClInclude Include="..\Library\Product.h" />

@@ -10,14 +10,14 @@ public:
 	const std::string& name() const {return m_name;}
 	BaseInput* input() {return m_input;}
 	BaseOutput* output() {return m_output;}
-	BaseSail* sail() {return m_sail;}
+	BaseSave* Save() {return m_Save;}
 	BaseLoad* load() {return m_load;}
 	~Category(void);
 private:
 	std::string m_name;
 	BaseInput* m_input;
 	BaseOutput* m_output;
-	BaseSail* m_sail;
+	BaseSave* m_Save;
 	BaseLoad* m_load;
 };
 

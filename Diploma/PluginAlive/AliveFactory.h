@@ -10,7 +10,7 @@ public:
 	virtual ~AliveFactory(void);
 	virtual BaseInput* createInput();
 	virtual BaseOutput* createOutput();
-	virtual BaseSail* createSail();
+	virtual BaseSave* createSave();
 	virtual BaseLoad* createLoad();
 };
 
