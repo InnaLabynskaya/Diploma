@@ -7,7 +7,8 @@ class AliveLoad :
 	public BaseLoad
 {
 public:
-	AliveLoad(void);
+	AliveLoad(BackUp* backup);
+	virtual void load(std::vector<Product*> &products);
 	virtual ~AliveLoad(void);
 };
 

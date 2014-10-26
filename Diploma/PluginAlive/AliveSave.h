@@ -7,7 +7,8 @@ class AliveSave :
 	public BaseSave
 {
 public:
-	AliveSave(void);
+	AliveSave(BackUp* backup);
+	virtual void save(const std::vector<Product*> &products);
 	virtual ~AliveSave(void);
 };
 

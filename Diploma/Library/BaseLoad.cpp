@@ -1,6 +1,6 @@
 #include "BaseLoad.h"
 
-BaseLoad::BaseLoad(void)
+BaseLoad::BaseLoad(BackUp* backup):m_backup(backup)
 {
 }
 

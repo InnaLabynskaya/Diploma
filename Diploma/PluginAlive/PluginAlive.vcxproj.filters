@@ -60,6 +60,9 @@
     <ClCompile Include="AliveSave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Library\Backup.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Library\BaseFactory.h">
@@ -105,6 +108,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Library\BaseSave.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Backup.h">
       <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>

@@ -48,6 +48,9 @@
     <ClCompile Include="..\Library\BaseSave.cpp">
       <Filter>Library</Filter>
     </ClCompile>
+    <ClCompile Include="..\Library\Backup.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shop.h">
@@ -81,6 +84,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Library\BaseSave.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Backup.h">
       <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>

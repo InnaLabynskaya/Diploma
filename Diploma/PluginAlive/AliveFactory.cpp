@@ -1,6 +1,9 @@
 #include "AliveFactory.h"
 #include "AliveInput.h"
 #include "AliveOutput.h"
+#include "AliveSave.h"
+#include "AliveLoad.h"
+using namespace std;
 
 AliveFactory::AliveFactory(void)
 {
@@ -21,12 +24,12 @@ BaseOutput* AliveFactory::createOutput()
 	return new AliveOutput();
 }
 
-BaseSave* AliveFactory::createSave()
+BaseSave* AliveFactory::createSave(BackUp* backup)
 {
-	return 0;
+	return new AliveSave(backup);
 }
 
-BaseLoad* AliveFactory::createLoad()
+BaseLoad* AliveFactory::createLoad(BackUp* backup)
 {
-	return 0;
+	return new AliveLoad(backup);
 }

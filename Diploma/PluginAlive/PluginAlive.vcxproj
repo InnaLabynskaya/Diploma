@@ -75,6 +75,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Library\Backup.cpp" />
     <ClCompile Include="..\Library\BaseFactory.cpp" />
     <ClCompile Include="..\Library\BaseInput.cpp" />
     <ClCompile Include="..\Library\BaseLoad.cpp" />
@@ -91,6 +92,7 @@
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Library\Backup.h" />
     <ClInclude Include="..\Library\BaseFactory.h" />
     <ClInclude Include="..\Library\BaseInput.h" />
     <ClInclude Include="..\Library\BaseLoad.h" />
