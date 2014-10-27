@@ -9,11 +9,6 @@ AliveOutput::AliveOutput(void)
 
 void AliveOutput::show(Product* product)
 {
-	cout<<"Name"<<setw(10)
-		<<"Price"<<setw(10)
-		<<"Quantity"<<setw(10)
-		<<"Light"<<setw(10)
-		<<"Age"<<endl;
 	AliveProduct* aliveProduct = (AliveProduct*)(product);
 	cout<<aliveProduct->name()<<setw(10)
 		<<aliveProduct->getPrice()<<setw(10)

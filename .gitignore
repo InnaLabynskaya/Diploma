@@ -14,6 +14,8 @@
 *.res
 *.rc
 *.suo
+*.database
+*.tmp
 *.unsuccessfulbuild
 /Diploma/Debug/
 /Diploma/Release/

@@ -29,6 +29,7 @@ Product* AliveInput::createProduct()
 	int age;
 	cin>>age;
 	product->setAge(age);
+	cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	return product;
 }
 
