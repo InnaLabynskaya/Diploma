@@ -11,9 +11,20 @@ int main()
 		Category* category = *it;
 		cout<<"Name: "<<category->name()<<endl;
 	}
-	Category* category = manager.categories()[0];
-	Product* product = category->input()->createProduct();
-	category->output()->show(product);
-	delete product;
+	//Category* category = manager.categories()[0];
+	//vector<Product*> products;
+	//for (int i=0;i<2;++i) {
+	//	Product* product = category->input()->createProduct();
+	//	products.push_back(product);
+	//}
+	//category->output()->show(products);
+	//category->save()->save(products);
+	//vector<Product*>::iterator pit = products.begin();
+	//for (; pit != products.end(); ++pit) {
+	//	delete *pit;
+	//}
+	//products.clear();
+	//category->load()->load(products);
+	//category->output()->show(products);
 	return 0;
 }

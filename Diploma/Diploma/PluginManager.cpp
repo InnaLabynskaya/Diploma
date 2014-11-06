@@ -33,7 +33,6 @@ PluginManager::PluginManager(const string& libraryPath)
 	}
 }
 
-
 PluginManager::~PluginManager(void)
 {
 	vector<HINSTANCE>::iterator it;
