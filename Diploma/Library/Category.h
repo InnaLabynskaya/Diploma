@@ -12,8 +12,9 @@ public:
 	BaseOutput* output() {return m_output;}
 	BaseSave* save() {return m_save;}
 	BaseLoad* load() {return m_load;}
-	BackUp* backup() {return m_backup;}
 	~Category(void);
+protected:
+	BackUp* backup() {return m_backup;}
 private:
 	std::string m_name;
 	BaseInput* m_input;

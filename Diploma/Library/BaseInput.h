@@ -7,6 +7,7 @@ class BaseInput
 public:
 	BaseInput(void);
 	virtual Product* createProduct() = 0;
+	virtual void modifyProduct(Product* product) = 0;
 	virtual ~BaseInput(void);
 };
 

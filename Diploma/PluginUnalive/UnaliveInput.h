@@ -9,6 +9,7 @@ class UnaliveInput :
 public:
 	UnaliveInput(void);
 	virtual Product* createProduct();
+	virtual void modifyProduct(Product* product);
 	virtual ~UnaliveInput(void);
 };
 

@@ -13,6 +13,13 @@ Product* AliveInput::createProduct()
 	char name[255];
 	cin.getline(name, 255);
 	AliveProduct* product = new AliveProduct(name);
+	modifyProduct(product);
+	return product;
+}
+
+void AliveInput::modifyProduct(Product* pProduct)
+{
+	AliveProduct* product = (AliveProduct*)pProduct;
 	cout<<"Enter price: ";
 	float price;
 	cin>>price;
@@ -21,16 +28,15 @@ Product* AliveInput::createProduct()
 	int quantity;
 	cin>>quantity;
 	product->setQuantity(quantity);
-	cout<<"Does '"<< name <<"' like light?(y/n): ";
+	cout<<"Does '"<< product->name() <<"' like light?(y/n): ";
 	char light;
 	cin>>light;
 	product->setLight(light == 'y');
-	cout<<"Enter age of '"<< name <<"': ";
+	cout<<"Enter age of '"<< product->name() <<"': ";
 	int age;
 	cin>>age;
 	product->setAge(age);
 	cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	return product;
 }
 
 AliveInput::~AliveInput(void)

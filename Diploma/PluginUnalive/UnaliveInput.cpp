@@ -29,6 +29,24 @@ Product* UnaliveInput::createProduct()
 	return product;
 }
 
+void UnaliveInput::modifyProduct(Product* pProduct)
+{
+	UnaliveProduct* product = (UnaliveProduct*) pProduct;
+	cout<<"Enter price: ";
+	float price;
+	cin>>price;
+	product->setPrice(price);
+	cout<<"Enter quantity: ";
+	int quantity;
+	cin>>quantity;
+	product->setQuantity(quantity);
+	cout<<"Enter expiration date of '"<< product->name() <<"': ";
+	int expirationDate;
+	cin>>expirationDate;
+	product->setExpirationDate(expirationDate);
+	cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 UnaliveInput::~UnaliveInput(void)
 {
 }

@@ -41,6 +41,18 @@ void Shop::removeProduct(unsigned int index)
 		cout<<"There is no product with this index\n";
 }
 
+void Shop::modifyProduct(unsigned int index)
+{
+	if(index < m_products.size())
+	{
+		Product *product = m_products[index];
+		m_category->output()->show(product);
+		m_category->input()->modifyProduct(product);
+	}
+	else
+		cout<<"There is no product with this index\n";
+}
+
 void Shop::addProduct()
 {
 	m_products.push_back(m_category->input()->createProduct());

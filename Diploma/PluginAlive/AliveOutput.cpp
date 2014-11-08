@@ -9,26 +9,36 @@ AliveOutput::AliveOutput(void)
 
 void AliveOutput::show(Product* product)
 {
-	AliveProduct* aliveProduct = (AliveProduct*)(product);
-	cout<<aliveProduct->name()<<setw(10)
-		<<aliveProduct->getPrice()<<setw(10)
-		<<aliveProduct->getQuantity()<<setw(10)
-		<<(aliveProduct->getLight()?"yes":"no")<<setw(10)
-		<<aliveProduct->getAge()<<endl;
+	showHeader();
+	showData((AliveProduct*)product);
 }
 
 void AliveOutput::show(const std::vector<Product*>& products)
+{
+	showHeader();
+	std::vector<Product*>::const_iterator it;
+	for (it = products.begin() ; it != products.end(); ++it)
+	{
+		showData((AliveProduct*)*it);
+	}
+}
+
+void AliveOutput::showHeader()
 {
 	cout<<"Name"<<setw(10)
 		<<"Price"<<setw(5)
 		<<"Quantity"<<setw(5)
 		<<"Light"<<setw(5)
 		<<"Age"<<endl;
-	std::vector<Product*>::const_iterator it;
-	for (it = products.begin() ; it != products.end(); ++it)
-	{
-		show(*it);
-	}
+}
+
+void AliveOutput::showData(AliveProduct* product)
+{
+	cout<<product->name()<<setw(10)
+		<<product->getPrice()<<setw(10)
+		<<product->getQuantity()<<setw(10)
+		<<(product->getLight()?"yes":"no")<<setw(10)
+		<<product->getAge()<<endl;
 }
 
 AliveOutput::~AliveOutput(void)

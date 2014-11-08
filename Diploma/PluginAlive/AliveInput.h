@@ -9,6 +9,7 @@ class AliveInput :
 public:
 	AliveInput(void);
 	virtual Product* createProduct();
+	virtual void modifyProduct(Product* product);
 	virtual ~AliveInput(void);
 };
 

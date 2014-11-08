@@ -11,6 +11,9 @@ public:
 	virtual void show(Product* product);
 	virtual void show(const std::vector<Product*>& products);
 	virtual ~AliveOutput(void);
+protected:
+	virtual void showHeader();
+	virtual void showData(AliveProduct* product);
 };
 
 #endif
