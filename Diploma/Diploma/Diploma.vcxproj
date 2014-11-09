@@ -85,6 +85,7 @@
     <ClCompile Include="..\Library\Product.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PluginManager.cpp" />
+    <ClCompile Include="Role.cpp" />
     <ClCompile Include="Shop.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +100,7 @@
     <ClInclude Include="..\Library\Product.h" />
     <ClInclude Include="..\Library\ShopLibrary.h" />
     <ClInclude Include="PluginManager.h" />
+    <ClInclude Include="Role.h" />
     <ClInclude Include="Shop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

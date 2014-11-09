@@ -1,7 +1,12 @@
 #ifndef __CATEGORY__
 #define __CATEGORY__
 #include <string>
+#include <vector>
 #include "BaseFactory.h"
+
+class Category;
+
+typedef std::vector<Category*> Categories;
 
 class Category
 {

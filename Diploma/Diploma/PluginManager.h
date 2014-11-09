@@ -6,8 +6,6 @@
 #include <vector>
 #include <string>
 
-typedef std::vector<Category*> Categories;
-
 class PluginManager
 {
 public:

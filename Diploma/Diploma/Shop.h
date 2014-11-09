@@ -12,6 +12,7 @@ public:
 	void showProduct(unsigned int index);
 	void removeProducts();
 	void removeProduct(unsigned int index);
+	void modifyProduct(unsigned int index);
 	void addProduct();
 	void load();
 	void save();
