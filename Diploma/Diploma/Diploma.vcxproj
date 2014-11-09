@@ -83,7 +83,10 @@
     <ClCompile Include="..\Library\BaseSave.cpp" />
     <ClCompile Include="..\Library\Category.cpp" />
     <ClCompile Include="..\Library\Product.cpp" />
+    <ClCompile Include="..\Library\Utilities.cpp" />
+    <ClCompile Include="Client.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manager.cpp" />
     <ClCompile Include="PluginManager.cpp" />
     <ClCompile Include="Role.cpp" />
     <ClCompile Include="Shop.cpp" />
@@ -99,6 +102,9 @@
     <ClInclude Include="..\Library\PluginAPI.h" />
     <ClInclude Include="..\Library\Product.h" />
     <ClInclude Include="..\Library\ShopLibrary.h" />
+    <ClInclude Include="..\Library\Utilities.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Manager.h" />
     <ClInclude Include="PluginManager.h" />
     <ClInclude Include="Role.h" />
     <ClInclude Include="Shop.h" />

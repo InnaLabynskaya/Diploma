@@ -83,6 +83,7 @@
     <ClCompile Include="..\Library\BaseSave.cpp" />
     <ClCompile Include="..\Library\Category.cpp" />
     <ClCompile Include="..\Library\Product.cpp" />
+    <ClCompile Include="..\Library\Utilities.cpp" />
     <ClCompile Include="AliveFactory.cpp" />
     <ClCompile Include="AliveInput.cpp" />
     <ClCompile Include="AliveLoad.cpp" />
@@ -102,6 +103,7 @@
     <ClInclude Include="..\Library\PluginAPI.h" />
     <ClInclude Include="..\Library\Product.h" />
     <ClInclude Include="..\Library\ShopLibrary.h" />
+    <ClInclude Include="..\Library\Utilities.h" />
     <ClInclude Include="AliveFactory.h" />
     <ClInclude Include="AliveInput.h" />
     <ClInclude Include="AliveLoad.h" />

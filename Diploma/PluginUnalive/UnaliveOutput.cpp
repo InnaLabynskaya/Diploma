@@ -27,8 +27,8 @@ void UnaliveOutput::show(const std::vector<Product*>& products)
 void UnaliveOutput::showHeader()
 {
 	cout<<"Name"<<setw(10)
-		<<"Price"<<setw(5)
-		<<"Quantity"<<setw(5)
+		<<"Price"<<setw(10)
+		<<"Quantity"<<setw(10)
 		<<"Exp date"<<endl;
 }
 

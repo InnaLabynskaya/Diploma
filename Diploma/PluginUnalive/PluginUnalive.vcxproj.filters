@@ -66,6 +66,9 @@
     <ClInclude Include="UnaliveOutput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Library\Utilities.h">
+      <Filter>Library</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -112,6 +115,9 @@
     </ClCompile>
     <ClCompile Include="UnaliveProduct.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Utilities.cpp">
+      <Filter>Library</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -26,9 +26,9 @@ void AliveOutput::show(const std::vector<Product*>& products)
 void AliveOutput::showHeader()
 {
 	cout<<"Name"<<setw(10)
-		<<"Price"<<setw(5)
-		<<"Quantity"<<setw(5)
-		<<"Light"<<setw(5)
+		<<"Price"<<setw(10)
+		<<"Quantity"<<setw(10)
+		<<"Light"<<setw(10)
 		<<"Age"<<endl;
 }
 

@@ -10,7 +10,6 @@ public:
 	virtual void run();
 	virtual ~Role(void);
 protected:
-	unsigned int selectCategory();
 	virtual void options(Shop* shop) = 0;
 	const Categories& m_categories;
 };
